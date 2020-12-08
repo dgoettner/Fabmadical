@@ -1,4 +1,4 @@
-name: content-web
+name: conteni-web
 
 # This workflow is triggered on push to the 'content-web' directory of the  master branch of the repository
 on:
@@ -19,7 +19,7 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 env:
    imageRepository: 'content-web'
-   resourceGroupName: 'fabmedical-dg8'
+   resourceGroupName: 'fabmedical-dgoettner'
    containerRegistryName: 'fabmedicaldg8'
    containerRegistry: 'fabmedicaldg8.azurecr.io'
    dockerfilePath: './content-web'
